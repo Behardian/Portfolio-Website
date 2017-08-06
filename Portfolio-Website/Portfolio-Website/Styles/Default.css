@@ -69,12 +69,13 @@ body {
     color: #fff;
 }
 
-#portfolioButton:hover{
+#portfolioButton:hover {
      color: #2f2f4a;
 }
 
-#portfolioContainer {    
+.portfolioContainer {    
     vertical-align: middle;
+    padding-bottom: 20px;
 }
 
 #portfolioContainer > div {
@@ -83,32 +84,30 @@ body {
     position: relative;
     overflow: hidden;
     vertical-align: middle;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
-#portfolioContainer > div > a > img {  
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    vertical-align: middle;
-    opacity: 1;
-    transition: .5s ease;
-}
-
-#portfolioContainer > div > h4 {
+.hoverText {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
 }
 
-#portfolioContainer > div:hover h4 {     
-    opacity: 1;    
+.portfolioImg {
+    opacity: 1;
+    transition: .5s ease; 
 }
 
-#portfolioContainer > div:hover img {
+.portfolio-item:hover .portfolioImg {
     opacity: 0.2;
 }
+
+.portfolio-item:hover .hoverText {
+    opacity: 1;
+}
+
+

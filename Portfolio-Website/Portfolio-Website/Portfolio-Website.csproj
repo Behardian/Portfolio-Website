@@ -102,6 +102,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,10 +118,15 @@
     <Content Include="Content\Images\andersonthumbnail.png" />
     <Content Include="Content\Images\ggccLogo.png" />
     <Content Include="Content\Images\ladslogo.png" />
-    <Content Include="Content\Images\vidlyLogo.png" />
+    <Content Include="Content\Images\vidlylarge.png" />
     <Content Include="Content\Images\warriorsArena.png" />
     <Content Include="Content\Images\wino.png" />
     <Content Include="Index.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Styles\Default.css" />
     <Content Include="Web.config" />
   </ItemGroup>

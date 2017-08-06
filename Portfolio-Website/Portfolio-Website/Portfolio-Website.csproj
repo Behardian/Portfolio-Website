@@ -121,7 +121,7 @@
     <Content Include="Content\Images\vidlylarge.png" />
     <Content Include="Content\Images\warriorsArena.png" />
     <Content Include="Content\Images\wino.png" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
